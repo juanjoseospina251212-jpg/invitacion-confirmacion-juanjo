@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f2ec">
+  <title>Mi Confirmación | Juanjo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <main class="page">
+    <section class="intro" id="inicio">
+      <p class="eyebrow">UN MOMENTO DE FE · UN RECUERDO PARA SIEMPRE</p>
+      <h1>Una invitación<br><span>muy especial</span></h1>
+      <p class="intro-copy">Hay momentos que se vuelven más especiales cuando los compartimos con quienes queremos.</p>
+      <button class="open-button" id="openInvite" type="button">
+        <span class="button-icon">✦</span> Abrir invitación <span class="button-arrow">↓</span>
+      </button>
+    </section>
+
+    <section class="invitation-wrap" id="invitation" aria-label="Invitación de confirmación">
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter">
+          <div class="letter-content">
+            <div class="small-cross">✝</div>
+            <p class="invite-line">ESTÁS CORDIALMENTE INVITADA</p>
+            <h2>A mi Confirmación</h2>
+            <div class="flourish"><span></span>❦<span></span></div>
+            <p class="name">Juanjo</p>
+            <p class="message">Será un día muy especial en mi camino de fe.<br>
+              Me encantaría contar con tu presencia<br>
+              para compartir este momento tan importante.</p>
+            <div class="date-block">
+              <p class="month">NOVIEMBRE</p>
+              <div class="date-row">
+                <span class="weekday">VIERNES</span>
+                <strong>06</strong>
+                <span class="time">8:30 <small>A. M.</small></span>
+              </div>
+              <p class="year">2026</p>
+            </div>
+            <div class="flourish location-flourish"><span></span>✦<span></span></div>
+            <p class="location-title">CAPILLA</p>
+            <p class="location">NUESTRA SEÑORA DE LA<br>PRESENTACIÓN</p>
+            <p class="closing">Con mucho cariño, espero compartir este día contigo.</p>
+          </div>
+        </div>
+        <div class="envelope-front"></div>
+        <div class="envelope-flap"></div>
+        <div class="seal">✝</div>
+        <div class="envelope-label">PARA TI, CON CARIÑO</div>
+      </div>
+      <p class="open-hint" id="openHint">Toca el sobre para abrir tu invitación</p>
+    </section>
+
+    <section class="after-card" id="details">
+      <p class="eyebrow">EL DÍA SE ACERCA</p>
+      <h2>Cuenta regresiva</h2>
+      <div class="countdown" aria-live="polite">
+        <div><strong id="days">--</strong><span>DÍAS</span></div>
+        <div><strong id="hours">--</strong><span>HORAS</span></div>
+        <div><strong id="minutes">--</strong><span>MINUTOS</span></div>
+        <div><strong id="seconds">--</strong><span>SEGUNDOS</span></div>
+      </div>
+      <p class="little-note">Tu presencia hará este momento aún más especial.</p>
+      <button class="rsvp-button" id="rsvpButton" type="button">Confirmar asistencia <span>♡</span></button>
+      <p class="rsvp-result" id="rsvpResult" role="status" aria-live="polite"></p>
+      <button class="text-button" id="backTop" type="button">Volver al inicio ↑</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
