@@ -23,7 +23,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         from: "Invitación Juanjo <onboarding@resend.dev>",
-        to: ["juanjoseospinacordoba1@gmail.com"],
+        to: ["juanjoseospina251212@gmail.com"],
         subject: "Asistencia confirmada para tu confirmación",
         text: `¡Asistencia confirmada para tu confirmación!
 
